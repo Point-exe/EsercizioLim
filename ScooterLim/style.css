@@ -1,0 +1,75 @@
+
+body{
+  background-image: url("sources/background.jpg");
+  background-color: white;
+  background-size: cover;
+  height: 900px;
+}
+
+.block{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 19%;
+  margin-top: 2%;
+  padding-bottom: 50px;
+  font-family: Arial;
+}
+
+header{
+  text-align: center;
+  padding-top: 9%;
+}
+#logo{
+  width: 220px;
+}
+#text1{
+  color: lime;
+  margin: 0px;
+  font-size: 24px;
+}
+
+nav{
+  background: lime;
+  text-align: center;
+  margin: 5%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  padding: 10px;
+}
+
+main{
+  text-align: left;
+  color: white;
+  margin-left: 5%;
+}
+
+.scooterName{
+  font-size: 24px;
+}
+
+.location{
+  display: block;
+  font-size: 16px;
+  margin-top: 1%;
+}
+
+.batteryBar{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.batteryBar,#orange{
+  background-color: #f5b453;
+  width: 300px;
+}
+.batteryBar,#green{
+  background-color: #1ec31e;
+  width: 600px;
+}
+
+.batteryBar,#red{
+  background-color: #be4141;
+  width: 150px;
+}
